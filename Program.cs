@@ -3,13 +3,13 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 
-public class Program
+public class Practica
 {
     public string rutaArchivo = "";
 
     public static void Main(string[] args)
     {
-        Program programa = new Program();
+        Practica programa = new Practica();
         bool salir = false;
 
         while (!salir)
